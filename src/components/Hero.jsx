@@ -9,33 +9,28 @@ const Hero = () => {
           <button
             type="button"
             onClick={() =>
-              window.open("https://github.com/ladunjexa/GPT4-Summarizer-Web")
-            }
-            className="github_btn"
-          >
-            GitHub
+              window.open("https://github.com/utsanjan/PrecisAI")
+            }className="github_btn"
+          >GitHub
           </button>
           <button
             type="button"
             onClick={() =>
               window.open(
-                "https://rapidapi.com/restyler/api/article-extractor-and-summarizer/"
+                "https://github.com/sponsors/utsanjan"
               )
-            }
-            className="rapidapi_btn"
-          >
-            Rapid API
+            }className="sponsor_btn"
+          >🤍
           </button>
         </div>
       </nav>
 
       <h1 className="head_text">
-        Summarize Articles with <br className="max-md:hidden" />
-        <span className="orange_gradient">OpenAI GPT-4</span>
+        Summarize Articles<br className="max-md:hidden" />
+        <span className="orange_gradient">with PrecisAI.</span>
       </h1>
       <h2 className="desc">
-        Simplify your reading with Summize, an open-source article summarizer
-        that transforms lengthy articles into clear and concise summaries
+      Discover the power of PrecisAI, an amazing open-source tool that summarizes lengthy articles into brief & easy-to-read summaries. Simplify your article-reading experience with just one small click!
       </h2>
     </header>
   );
