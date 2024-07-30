@@ -26,7 +26,7 @@ const Hero = () => {
       </nav>
 
       <h1 className="head_text">
-        Summarize Articles<br className="max-md:hidden" />
+        Summarize Articles <br className="max-md:hidden" />
         <span className="orange_gradient">with PrecisAI.</span>
       </h1>
       <h2 className="desc">
