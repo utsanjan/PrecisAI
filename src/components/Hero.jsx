@@ -11,7 +11,7 @@ const Hero = () => {
             onClick={() =>
               window.open("https://github.com/utsanjan/PrecisAI")
             }className="github_btn"
-          >GitHub
+          >‎ ‎𝗚𝗶𝘁𝗛𝘂𝗯
           </button>
           <button
             type="button"
@@ -20,7 +20,7 @@ const Hero = () => {
                 "https://github.com/sponsors/utsanjan"
               )
             }className="sponsor_btn"
-          >🤍
+          >🤍‎ ‎
           </button>
         </div>
       </nav>
