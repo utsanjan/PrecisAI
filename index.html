@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./src/App.css" /> 
     <!-- satoshi font family -->
     <link
       href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,300,400&display=swap"
@@ -17,7 +18,24 @@
     <title>PrecisAI</title>
   </head>
   <body>
-    <div id="root"></div>
+  <div class="preloader">
+  <div class="dots-container">
+      <div class="dot first"></div>
+      <div class="dot second"></div>
+      <div class="dot third"></div>
+  </div>
+  </div>
+  <div id="root"></div>
+    <script>
+      const preloader = document.querySelector(".preloader");
+      const preloaderDuration = 500;
+      const hidePreloader = () => {
+          setTimeout(() => {
+              preloader.classList.add("hide");
+          }, preloaderDuration);
+      }
+      window.addEventListener("load", hidePreloader);
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

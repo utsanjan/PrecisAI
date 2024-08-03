@@ -102,3 +102,65 @@
 .summary_box {
   @apply rounded-xl border-gray-100 bg-white/80 shadow-[inset_10px_-50px_94px_0_rgb(209,213,218)] backdrop-blur p-4;
 }
+
+/* Preloader Animation */
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #1A1A1A;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 400ms;
+  z-index: 2000;
+}
+
+.preloader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.preloader .dots-container {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.preloader .dot {
+  background: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.preloader .dot.first {
+  background: #FF5523;
+  animation: bounce 1000ms infinite;
+}
+
+.preloader .dot.second {
+  background: #FF5523;
+  animation: bounce 1000ms infinite;
+  animation-delay: 200ms;
+}
+
+.preloader .dot.third {
+  background: #FF5523;
+  animation: bounce 1000ms infinite;
+  animation-delay: 400ms;
+}
+
+@keyframes bounce {
+  50% {
+      transform: translateY(16px);
+  }
+
+  100% {
+      transform: translateY(0);
+  }
+}
