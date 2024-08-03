@@ -60,7 +60,7 @@
 }
 
 .github_btn {
-  @apply rounded-l-full border border-white bg-[#0E1117e2] py-1.5 px-5 text-sm text-white transition-all hover:bg-[#8b8a8a] hover:border-[#fff] hover:text-black;
+  @apply rounded-l-full border border-white bg-[#414E5Be2] py-1.5 px-5 text-sm text-white transition-all hover:bg-[#8b8a8a] hover:border-[#fff] hover:text-black;
 }
 
 .sponsor_btn {
