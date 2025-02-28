@@ -4,8 +4,8 @@
 [![Vercel Deploy](https://deploy-badge.vercel.app/vercel/precisai)](https://precisai.vercel.app/)‎ ‎
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/utsanjan)‎ ‎
 [![](https://dcbadge.vercel.app/api/server/uavTPkr?style=plastic)](https://discord.gg/bvzTHWnD3n)‎ ‎‎
-[![](https://img.shields.io/github/languages/count/utsanjan/LockURL?style=flat)](https://github.com/utsanjan/LockURL/search?l=shell)‎ ‎
 [![](https://img.shields.io/github/languages/top/utsanjan/LockURL?color=light%20green&style=flat)](https://github.com/utsanjan/PrecisAI)‎ ‎
+[![](https://img.shields.io/github/languages/count/utsanjan/LockURL?style=flat)](https://github.com/utsanjan/LockURL/search?l=shell)‎ ‎
 
 PrecisAI is a cutting-edge Article Summarizer web application that distills lengthy articles into concise summaries. Built with React and Redux.js, this project leverages the power of OpenAI's GPT-4 model through Rapid API.
 
