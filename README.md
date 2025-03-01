@@ -1,4 +1,4 @@
-<a href="https://precisai.vercel.app/"><img src="https://cutt.ly/TeJTIwmN"></a>
+<a href="https://precisai.vercel.app/"><img src="https://cutt.ly/HrttZKP7"></a>
 # 🧠 PrecisAI - Article Summarizer
 
 [![Vercel Deploy](https://deploy-badge.vercel.app/vercel/precisai)](https://precisai.vercel.app/)‎ ‎
